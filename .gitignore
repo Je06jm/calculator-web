@@ -1,0 +1,5 @@
+# Django development SQLite database
+*.sqlite3
+
+# Compiled python files
+*.pyc
