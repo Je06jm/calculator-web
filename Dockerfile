@@ -2,4 +2,4 @@ FROM python:3.9-alpine
 WORKDIR /app
 
 COPY requirements.txt .
-RUN pip install
+RUN pip install --user -r requirements.txt
